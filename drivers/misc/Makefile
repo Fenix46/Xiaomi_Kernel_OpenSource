@@ -82,3 +82,5 @@ obj-y                           +=akm09970.o
 
 obj-$(CONFIG_FPR_FPC)		+= fpr_FingerprintCard/
 obj-$(CONFIG_GPIO_TESTING_MODE)	+= gpio-testing-mode.o
+
+obj-y                           += qrc/
